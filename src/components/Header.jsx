@@ -24,7 +24,7 @@ export default function Header() {
         <Container >
           <Nav >
             {/* <Avatar className="mx-2 d-none d-md-block" alt="" src={a1} /> */}
-            <Navbar.Brand href="/">SQB</Navbar.Brand></Nav>
+            <Navbar.Brand href="/">QB</Navbar.Brand></Nav>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -52,7 +52,7 @@ export default function Header() {
         <Container >
           <Nav >
             {/* <Avatar className="mx-2 d-none d-md-block" alt="" src={a1} /> */}
-            <Navbar.Brand href="#">SQB</Navbar.Brand>
+            <Navbar.Brand href="#">QB</Navbar.Brand>
           </Nav>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
