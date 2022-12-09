@@ -32,14 +32,11 @@ export default function Header() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/tech">Tech</Nav.Link>
               <Nav.Link href="/team">Team</Nav.Link>
-              <Nav.Link href="/team">Insights</Nav.Link>
               <Nav.Link href="/team">Career</Nav.Link>
             </Nav>
             <Nav>
-              {/* <Nav.Link href="https://www.github.com/">Github</Nav.Link> */}
               <Nav.Link href="https://www.github.com/">Medium</Nav.Link>
               <Nav.Link href="https://www.linkedin.com/in/">Linkedin</Nav.Link>
               <Nav.Link href="/contact">Contact Us</Nav.Link>
@@ -64,11 +61,8 @@ export default function Header() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-
-              <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/tech">Tech</Nav.Link>
               <Nav.Link href="/team">Team</Nav.Link>
-              <Nav.Link href="/team">Insights</Nav.Link>
               <Nav.Link href="/team">Career</Nav.Link>
             </Nav>
             <Nav>

@@ -28,7 +28,7 @@ export default function Dashboard() {
 				<h1>PRODUCTS<span></span><span className="text-secondary"> & SERVICES</span></h1>
 			</>
 			)
-			setDashboardcontent(" We provide industry standard solutions and services with expertise in blockchain development, cloud services, testing automation, web - development, mobile development, and other software solutions. Our objective is to bring creative and shrewd solutions to solve business problems.")
+			setDashboardcontent("We provide industry standard solutions and services with expertise in blockchain development, cloud services, testing automation, web - development, mobile development, and other software solutions. Our objective is to bring creative and shrewd solutions to solve business problems.")
 			setDynamiclink("https://anubhavp.dev")
 		} else if (isDisplayed === "second") {
 			setHeading(<>
