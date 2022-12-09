@@ -1,7 +1,7 @@
 {
     "name": "blog",
     "version": "0.1.0",
-    "homepage": "https://squibix.com/sqweb/",
+    "homepage": "https://anubhavp.dev/qweb/",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.9.0",

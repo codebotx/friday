@@ -9,7 +9,7 @@ export default function Intro() {
 			<div className="container">
 				<div className="row">
 					<h1 className='py-4'>
-						WELCOME TO SQUBIX DIGITAL</h1>
+						QUEENBOTS </h1>
 					<div className="col-md-8">
 						<p className="p-3">
 							A problem that has plagued the internet since its inception is:

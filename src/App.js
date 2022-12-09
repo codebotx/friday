@@ -2,13 +2,9 @@ import './App.css';
 import Dashboard from './components/Dashboard';
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardsIntro from './components/BlogIntro';
-import Cards from './components/Cards';
 import Intro from './components/Intro';
-import BlockchainOfferings from './components/BlockchainOfferings';
 import Footer from './components/Footer';
 import './assets/css/style.css';
-import OurCoreValues from './components/OurCoreValues';
 import Aos from 'aos';
 import React from 'react';
 
@@ -30,7 +26,6 @@ function App() {
           </h1>
         </div>
       </div>
-      <CardsIntro />
       <div className="container">
         <div className="row text-center justify-content-center my-1" >
           <h1>
@@ -38,8 +33,6 @@ function App() {
           </h1>
         </div>
       </div>
-      <BlockchainOfferings />
-      <Cards />
       <div className="container">
         <div className="row text-center justify-content-center my-1" >
           <h1>
@@ -47,7 +40,10 @@ function App() {
           </h1>
         </div>
       </div>
-      <OurCoreValues />
+      {/* <CardsIntro />
+      <BlockchainOfferings />
+      <Cards />
+      <OurCoreValues /> */}
       <Footer />
     </>
   )

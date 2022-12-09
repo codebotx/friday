@@ -6,7 +6,7 @@ import '../assets/css/dashboard.css'
 
 export default function Dashboard() {
 	const [dashboardcontent, setDashboardcontent] = React.useState('')
-	const [dynamiclink, setDynamiclink] = React.useState('https://squbix.com/nft')
+	const [dynamiclink, setDynamiclink] = React.useState('https://anubhavp.dev')
 	const [heading, setHeading] = React.useState('')
 	const [isDisplayed, setIsDisplayed] = React.useState("first")
 
@@ -29,21 +29,21 @@ export default function Dashboard() {
 			</>
 			)
 			setDashboardcontent(" We provide industry standard solutions and services with expertise in blockchain development, cloud services, testing automation, web - development, mobile development, and other software solutions. Our objective is to bring creative and shrewd solutions to solve business problems.")
-			setDynamiclink("https://squbix.com/")
+			setDynamiclink("https://anubhavp.dev")
 		} else if (isDisplayed === "second") {
 			setHeading(<>
 				<h1>WEB<span> </span><span className="text-secondary">3</span></h1>
 			</>
 			)
 			setDashboardcontent(" The potential of Blockchain is collosal, which makes it the pinnacle of current world innovation. We work with wallet development, Central Bank of Digital Currency, blockchain development and other web3 industry services.")
-			setDynamiclink("https://squbix.com/dapps")
+			setDynamiclink("https://anubhavp.dev/dapps")
 		} else if (isDisplayed === "third") {
 			setHeading(<>
 				<h1>TRAINING<span> & </span><span className="text-secondary">EDUCATION</span></h1>
 			</>
 			)
 			setDashboardcontent("We provide industry standard training on blockchain, software development, and AI. Get a chance to learn software development by working in real-world products such as crypto wallet, crypto-currency, exchange platform, and other web and mobile applications with our highly experienced developers.")
-			setDynamiclink("https://squbix.com/nft")
+			setDynamiclink("https://anubhavp.dev/nft")
 		}
 	}, [isDisplayed])
 	return (

@@ -16,7 +16,7 @@ export default function Footer() {
 							<i className="bi bi-instagram"></i>
 						</a>
 
-						<a href="mailto:hr@squbix.com" className="p-2 text-decoration-none text-secondary">
+						<a href="mailto:hr@queenbots.com" className="p-2 text-decoration-none text-secondary">
 							<i className="bi bi-envelope-open-fill"></i>
 						</a>
 
@@ -26,8 +26,7 @@ export default function Footer() {
 
 					</div>
 					<div>
-						Copyright © 2022 <a className='foot' style={{ textDecoration: 'none' }} href="https://squbix.com/"> Squbix Digital</a>. All rights reserved.
-
+						Copyright © 2022 <a className='foot' style={{ textDecoration: 'none' }} href="https://queenbots.com/"> Queenbots</a>. All rights reserved.
 					</div>
 				</div>
 			</footer>
