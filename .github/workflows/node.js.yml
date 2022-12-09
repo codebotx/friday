@@ -30,6 +30,3 @@ jobs:
     - run: yarn
     - run: yarn run build --if-present
     - run: yarn run deploy
-    - run: git add .
-    - run: git commit -m "Deploying latest commit"
-    - run: git push origin main
