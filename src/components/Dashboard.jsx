@@ -53,13 +53,13 @@ export default function Dashboard() {
 
 					<div className="d-sm-flex align-items-center justify-content-between mainc">
 						<div className="img-home">
-							{heading}
+							<h1 className="heading">QUEEN<span></span><span className="text-secondary">BOTS</span></h1>
 							<p className="lead my-4">
-								{dashboardcontent}
+								The potential of Blockchain is collosal, which makes it the pinnacle of current world innovation. We build blockchains!
 							</p>
-							<a href={dynamiclink}>
+							{/* <a href="https://anubhavp.dev/">
 								<button className="btn btn-sm prbt">Learn More</button>
-							</a>
+							</a> */}
 						</div>
 						<img className="img-fluid w-50 d-none d-sm-block" src={moon} alt="in office" />
 					</div>

@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-     :root {
+    :root {
         color-scheme: dark;
         --hue-color: 243;
         --body-bg: #FFFFFF;
@@ -13,13 +13,17 @@
         --scroll-bar-color: hsl(var(--hue-color), 12%, 100%);
         --scroll-thumb-color: hsl(var(--hue-color), 12%, 90%);
     }
+
     .prbt {
         background-color: #fff;
-        border-color: #6c63ff
+        border-color: #6c63ff;
+        color: black;
     }
+
     .prbt:hover {
         background-color: #6c63ff;
-        border-color: #6c63ff
+        border-color: #6c63ff;
+        color: white;
     }
 }
 
@@ -27,7 +31,7 @@
 /* Dark mode */
 
 @media (prefers-color-scheme: dark) {
-     :root {
+    :root {
         color-scheme: dark;
         --hue-color: 243;
         --body-bg: #0d1117;
@@ -41,22 +45,27 @@
         --scroll-bar-color: #0d1117;
         --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
     }
+
     .cdin {
         text-decoration-color: white;
     }
+
     .navx {
         color: #fff;
     }
+
     .prbt {
         background-color: #1a1a1a;
         border-color: #6c63ff;
         color: white;
     }
+
     .prbt:hover {
         background-color: #6c63ff;
         border-color: #6c63ff;
         color: white;
     }
+
     srch {
         background-color: #1a1a1a;
         color: white;

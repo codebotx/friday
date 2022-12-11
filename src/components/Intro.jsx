@@ -6,7 +6,7 @@ import think from '../assets/img/think.svg';
 export default function Intro() {
 	return (
 		<>
-			<div className="container">
+			{/* <div className="container">
 				<div className="row">
 					<h1 className='py-4'>
 						QUEENBOTS </h1>
@@ -36,7 +36,7 @@ export default function Intro() {
 						<img src={think} alt="bitcoin transfer" style={{ width: '100%', height: '100%' }} />
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 		</>)
 }

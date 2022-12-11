@@ -18,7 +18,7 @@ function App() {
       <Header />
       <Dashboard />
       <Intro />
-      <div className="container">
+      {/* <div className="container">
         <div className="row text-center justify-content-center my-1" >
           <h1>
             THE WORLD OF <span className='text-secondary'>
@@ -39,11 +39,7 @@ function App() {
             OUR <span className="text-secondary">CORE</span> <span className="text-primary">VALUES</span>
           </h1>
         </div>
-      </div>
-      {/* <CardsIntro />
-      <BlockchainOfferings />
-      <Cards />
-      <OurCoreValues /> */}
+      </div> */}
       <Footer />
     </>
   )

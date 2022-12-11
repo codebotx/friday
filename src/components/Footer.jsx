@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
 	return (
-		<div>
-			<footer id='footer'>
+		<div className="fixed-bottom">
+			<footer id='footer '>
 
 				<div className=" py-3 mx-1 " style={{ textAlign: 'center', fontSize: '14px' }}>
 					<div className='icons my-1' >
