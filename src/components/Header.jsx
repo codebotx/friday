@@ -1,9 +1,8 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import Avatar from '@mui/material/Avatar';
-import a1 from '../assets/img/a1.jpeg'
-import logo1 from '../assets/img/logo1.svg'
-import logo2 from '../assets/img/logo2.svg'
+import logo1 from '../assets/img/moon.png'
+import logo2 from '../assets/img/moon.png'
 
 
 
@@ -28,7 +27,7 @@ export default function Header() {
         <Container >
           <Nav >
             <Navbar.Brand href="/">
-              <Avatar className="mx-2 d-none d-md-block" alt="" src={logo2} />
+              <Avatar className="mx-2 " alt="" src={logo2} />
             </Navbar.Brand>
           </Nav>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -59,7 +58,7 @@ export default function Header() {
         <Container >
           <Nav >
             <Navbar.Brand href="#">
-              <Avatar className="mx-2 d-none d-md-block" alt="" src={logo1} />
+              <Avatar className="mx-2 " alt="" src={logo1} />
             </Navbar.Brand>
           </Nav>
           <Navbar.Toggle aria-controls="navbarScroll" />
